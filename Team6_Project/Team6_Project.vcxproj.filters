@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="99.Default">
+      <UniqueIdentifier>{32ddbe2e-769d-44d0-bcc0-5a03a75e57d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Default\Include">
+      <UniqueIdentifier>{e157f637-ef0b-4458-bbe0-3fc51a5bfeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Central_Processing">
+      <UniqueIdentifier>{75085c31-22b2-4436-aafa-91ebc14179a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. MainGame">
+      <UniqueIdentifier>{5ad1001c-ebf6-459c-b9cc-b990d0ae1fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj">
+      <UniqueIdentifier>{25a8dd80-b883-4b16-b5f9-11000bfbf620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager">
+      <UniqueIdentifier>{9fe3f889-9140-4b7d-8440-d252e00ba95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\01. CollisionMgr">
+      <UniqueIdentifier>{ad64179a-751a-4d1c-866a-15344a3562e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Manager\02. ObjMgr">
+      <UniqueIdentifier>{4d846e36-9d74-4773-89a0-b235aa635672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\01.Player">
+      <UniqueIdentifier>{a996bab4-2835-43aa-b47b-818b72ff0632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02.Monster">
+      <UniqueIdentifier>{eaf87918-c8f9-4894-8769-d3b39fd8ba83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet">
+      <UniqueIdentifier>{ef476187-ec95-4afa-b2bf-8fa800bdb635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\01.Default_Bullet">
+      <UniqueIdentifier>{39d35aab-31f9-430b-bd00-db1f9638ab3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\02.Blade_Shield">
+      <UniqueIdentifier>{6b522312-e6d9-4c45-a244-20db19214d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\04.Guide_Missile">
+      <UniqueIdentifier>{5adbe73d-0021-4fd7-8b32-5b778f247600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\05.Energy_Wave">
+      <UniqueIdentifier>{cff1971e-40ec-4c07-b0ee-f070c97bc101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\07.Monster_Bullet">
+      <UniqueIdentifier>{abb49a20-9d7f-4099-b547-acbc9e06f6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02.Monster\00.Monster_UFO">
+      <UniqueIdentifier>{28384838-102b-4103-92ae-a867a4ff0930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\07.Monster_Bullet\00.UFO_Bullet">
+      <UniqueIdentifier>{1c6d1b8e-3fbd-45f2-9447-cb877ea5f77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02.Monster\01.Monster_Carrier">
+      <UniqueIdentifier>{da637af8-3760-4e60-9cfb-bc8aa064a42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\07.Monster_Bullet\01.Monster_Guided">
+      <UniqueIdentifier>{ff7695c5-3e0c-40b7-8970-1c316aecc5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\07.Monster_Bullet\02.KF15_Bullet">
+      <UniqueIdentifier>{07afad8b-4c33-48b4-ab44-d576fa4ccec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02.Monster\02.Monster_KF15">
+      <UniqueIdentifier>{72f65851-8c14-40d2-8b92-d12e7cb630c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02.Monster\03. Monster_Tank">
+      <UniqueIdentifier>{5ab583f2-c0ff-43a8-b89b-4ba4f79f3b26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\07.Monster_Bullet\04. Tank_Bullet">
+      <UniqueIdentifier>{e6f4818e-bc18-4740-bc02-53b9ecb92924}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\02.Monster\04. Monster_Warm">
+      <UniqueIdentifier>{181a1944-f00d-4ae1-b8c5-49e2cad35a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Obj\03.Bullet\07.Monster_Bullet\05.Warm_Bullet">
+      <UniqueIdentifier>{838a1575-2501-45f9-97e8-f5ace93a58d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Enum.h">
+      <Filter>99.Default\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>99.Default\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Struct.h">
+      <Filter>99.Default\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>99.Default\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Team6_Project.h">
+      <Filter>00. Central_Processing</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>01. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>02. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03. Manager\02. ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03. Manager\01. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>02. Obj\01.Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>02. Obj\02.Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>02. Obj\03.Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultBullet.h">
+      <Filter>02. Obj\03.Bullet\01.Default_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BladeShield.h">
+      <Filter>02. Obj\03.Bullet\02.Blade_Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="EnergyWave.h">
+      <Filter>02. Obj\03.Bullet\05.Energy_Wave</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_UFO.h">
+      <Filter>02. Obj\02.Monster\00.Monster_UFO</Filter>
+    </ClInclude>
+    <ClInclude Include="Ufo_Bullet.h">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\00.UFO_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Guided.h">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\01.Monster_Guided</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Carrier.h">
+      <Filter>02. Obj\02.Monster\01.Monster_Carrier</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadFile.h">
+      <Filter>99.Default\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="KF15_Bullet.h">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\02.KF15_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_KF15.h">
+      <Filter>02. Obj\02.Monster\02.Monster_KF15</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideMissile.h">
+      <Filter>02. Obj\03.Bullet\04.Guide_Missile</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_TANK.h">
+      <Filter>02. Obj\02.Monster\03. Monster_Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank_Bullet.h">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\04. Tank_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster_Warm.h">
+      <Filter>02. Obj\02.Monster\04. Monster_Warm</Filter>
+    </ClInclude>
+    <ClInclude Include="Warm_Bullet.h">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\05.Warm_Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterFile.h">
+      <Filter>99.Default\Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Team6_Project.cpp">
+      <Filter>00. Central_Processing</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>01. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>02. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03. Manager\02. ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03. Manager\01. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>02. Obj\01.Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>02. Obj\02.Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>02. Obj\03.Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultBullet.cpp">
+      <Filter>02. Obj\03.Bullet\01.Default_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BladeShield.cpp">
+      <Filter>02. Obj\03.Bullet\02.Blade_Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="EnergyWave.cpp">
+      <Filter>02. Obj\03.Bullet\05.Energy_Wave</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_UFO.cpp">
+      <Filter>02. Obj\02.Monster\00.Monster_UFO</Filter>
+    </ClCompile>
+    <ClCompile Include="Ufo_Bullet.cpp">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\00.UFO_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Guided.cpp">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\01.Monster_Guided</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Carrier.cpp">
+      <Filter>02. Obj\02.Monster\01.Monster_Carrier</Filter>
+    </ClCompile>
+    <ClCompile Include="KF15_Bullet.cpp">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\02.KF15_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_KF15.cpp">
+      <Filter>02. Obj\02.Monster\02.Monster_KF15</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideMissile.cpp">
+      <Filter>02. Obj\03.Bullet\04.Guide_Missile</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_TANK.cpp">
+      <Filter>02. Obj\02.Monster\03. Monster_Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank_Bullet.cpp">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\04. Tank_Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster_Warm.cpp">
+      <Filter>02. Obj\02.Monster\04. Monster_Warm</Filter>
+    </ClCompile>
+    <ClCompile Include="Warm_Bullet.cpp">
+      <Filter>02. Obj\03.Bullet\07.Monster_Bullet\05.Warm_Bullet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Team6_Project.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Team6_Project.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99.Default</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
